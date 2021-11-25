@@ -21,3 +21,7 @@ let dinoPlaying = setInterval(() => {
 document.addEventListener("click", function (ev) {
   jump();
 });
+const newFeature = function () {
+  console.log("Weolcome!");
+};
+newFeature();
